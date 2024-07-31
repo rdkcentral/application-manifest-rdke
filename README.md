@@ -2,11 +2,9 @@
 Manifest to build RDKE application layer for RDK platforms
 
 ## Build Steps
-Note: use `main` or `develop` branch.
+Note: use latest `TAG` for released versions or `develop` branch for develop HEAD.
 ```bash
 # Initialize the repository
-repo init -u git@github.com:rdkcentral/rdke-application-manifest-generic -m raspberrypi4-64.xml -b develop
-or
 repo init -u https://github.com/rdkcentral/rdke-application-manifest-generic.git -m raspberrypi4-64.xml -b develop
 
 # Synchronize the repository
