@@ -8,7 +8,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
     </project>
 
-    <project groups="imagebuilder" name="meta-image-builder" path="rdke/common/meta-image-support" remote="rdke" revision="3.0.3">
+    <project groups="imagebuilder" name="meta-image-builder" path="rdke/common/meta-image-support" remote="rdke" revision="refs/tags/3.0.3">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT"/>
     </project>
   
