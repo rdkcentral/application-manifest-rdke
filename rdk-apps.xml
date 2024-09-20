@@ -46,7 +46,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
 
-    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="feature/rpi-open-platform-integration">
+    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="feature/RDKVREFPLT-3162-mw-1.9.9-aligned-generic-release">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
