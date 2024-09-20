@@ -46,11 +46,12 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY"/>
     </project>
 
-    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="feature/RDKVREFPLT-3162-mw-1.9.9-aligned-generic-release">
+    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="e10100d039844a93a5cd2826ba65acf4a438f977">
+        <!-- Use SHA from feature/rpi-open-platform-integration -->
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-development-generic" path="rdke/application/meta-application-development" remote="rdkcentral" revision="feature/RDKVREFPLT-3163-app-layer-update">
+    <project groups="layers" name="meta-application-development-generic" path="rdke/application/meta-application-development" remote="rdkcentral" revision="refs/tags/1.1.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
