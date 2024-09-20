@@ -18,7 +18,7 @@
     </project>
 
     <!-- RDKVREFPLT-3302: remove when meta-aux is having the complete generic bbclasses -->
-    <project groups="imagebuilder" name="meta-image-support" path="rdke/common/meta-image-support" remote="rdke" revision="3.0.8">
+    <project groups="imagebuilder" name="meta-image-support" path="rdke/common/meta-image-support" remote="rdke" revision="refs/tags/3.0.8">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_IMAGE_SUPPORT"/>
     </project>
 
