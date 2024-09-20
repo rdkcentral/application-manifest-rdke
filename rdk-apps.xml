@@ -50,7 +50,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-development-generic" path="rdke/application/meta-application-development" remote="rdkcentral" revision="refs/tags/1.0.1">
+    <project groups="layers" name="meta-application-development-generic" path="rdke/application/meta-application-development" remote="rdkcentral" revision="feature/RDKVREFPLT-3163-app-layer-update">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
