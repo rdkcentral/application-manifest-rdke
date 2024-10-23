@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <yocto version="kirkstone" />
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral-platform" review="https://github.com/rdkcentral"/>
     <!-- Include the rdk-apps.xml submanifest -->
     <include name="rdk-apps.xml" />
 
     <!-- Platform specific layers -->
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral-platform" revision="refs/tags/1.1.0">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral-platform" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER" />
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_IS_OPEN_SOURCE" />
     </project>
  
-    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral-platform" revision="refs/tags/1.2.5">
+    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral-platform" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_VENDOR_RELEASE" />
     </project>
 </manifest>
