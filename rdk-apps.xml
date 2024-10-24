@@ -3,6 +3,7 @@
     <remote fetch="ssh://git@github.com/rdk-e" name="rdke" review="https://github.com/rdk-e"/>
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
     <remote fetch="https://code.rdkcentral.com/r/a/" name="cmf" review="https://code.rdkcentral.com/r/a/" />
+    <remote fetch="https://github.com/leenaS-d" name="leenaS-d" review="https://github.com/leenaS-d"/>
 
     <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="6d0f224ad4a500d574538074a9440a6ffb43378a">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
@@ -51,7 +52,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-development" remote="rdkcentral" revision="feature/kirkstone-community-platforms">
+    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-development" remote="leenaS-d" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
