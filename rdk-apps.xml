@@ -5,16 +5,16 @@
     <remote fetch="https://code.rdkcentral.com/r/a/" name="cmf" review="https://code.rdkcentral.com/r/a/" />
     <remote fetch="https://github.com/leenaS-d" name="leenaS-d" review="https://github.com/leenaS-d"/>
 
-    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="6d0f224ad4a500d574538074a9440a6ffb43378a">
+    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="refs/tags/4.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
     </project>
 
-    <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdke" revision="cb4e24eb316d0748eec63d251724f8f4d84a2f0f">
+    <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdke" revision="refs/tags/4.0.0">
         <!-- RDKVREFPLT-3302: Replace with meta-aux layer matching MANIFEST_EXPORT_PATH when its is available -->
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_RDK_AUXILIARY"/>
     </project>
 
-    <project groups="stacklayering" name="meta-stack-layering-support" path="rdke/common/meta-stack-layering-support" remote="rdke" revision="0767bc8e29985bfbd8c1d921248d0fa7a4b155e5">
+    <project groups="stacklayering" name="meta-stack-layering-support" path="rdke/common/meta-stack-layering-support" remote="rdke" revision="refs/tags/3.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_STACK_LAYERING_SUPPORT"/>
     </project>
 
@@ -27,7 +27,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_CONFIG"/>
     </project>
 
-    <project groups="configs" name="rdke-stb-config" path="rdke/configs/profile" remote="rdke" revision="491a2a5c60d6b758a2d620daf356b4a6d72c7449">
+    <project groups="configs" name="rdke-stb-config" path="rdke/configs/profile" remote="rdke" revision="refs/tags/1.0.2">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PROFILE_CONFIG"/>
     </project>
 
@@ -35,7 +35,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_RELEASE"/>
     </project>
 
-    <project groups="oss" name="meta-rdk-oss-reference" path="rdke/common/meta-rdk-oss-reference" remote="rdke" revision="267775a3be437a1c4b3e3f15ac29950ac574a847">
+    <project groups="oss" name="meta-rdk-oss-reference" path="rdke/common/meta-rdk-oss-reference" remote="rdke" revision="refs/tags/4.1.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_OSS_REFERENCE"/>
     </project>
 
