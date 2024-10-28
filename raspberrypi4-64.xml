@@ -11,7 +11,7 @@
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_IS_OPEN_SOURCE" />
     </project>
  
-    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral-platform" revision="feature/kirkstone-community-platforms">
+    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="leenaS-d" revision="feature/kirkstone-community-platforms">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_VENDOR_RELEASE" />
     </project>
 </manifest>
