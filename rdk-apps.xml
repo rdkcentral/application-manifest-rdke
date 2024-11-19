@@ -17,7 +17,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_STACK_LAYERING_SUPPORT"/>
     </project>
 
-    <project groups="configs" name="rdke-common-config" path="rdke/configs/common" remote="rdke" revision="refs/tags/4.2.0">
+    <project groups="configs" name="rdke-common-config" path="rdke/configs/common" remote="rdke" revision="ced54a0494747fdde49c973ff56d72a53b2b28db">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_CONFIG"/>
     </project>
 
