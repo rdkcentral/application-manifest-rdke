@@ -6,12 +6,12 @@
     <include name="rdk-apps.xml" />
 
     <!-- Platform specific layers -->
-    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral-platform" revision="feature/set-build-variant">
+    <project groups="products" name="meta-product-raspberrypi" path="rdke/product/meta-product-raspberrypi" remote="rdkcentral-platform" revision="938ba738f023141b6fa4f6bb63899e6f47a237da">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PRODUCT_LAYER" />
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_IS_OPEN_SOURCE" />
     </project>
  
-    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral-platform" revision="feature/solve-build-issues">
+    <project groups="release" name="meta-vendor-raspberrypi-release" path="rdke/vendor/meta-vendor-release" remote="rdkcentral-platform" revision="118df82b07f085eafae3bb9ff4d6e1c958ff93f1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_VENDOR_RELEASE" />
     </project>
 </manifest>
