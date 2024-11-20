@@ -44,7 +44,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-development" remote="rdkcentral" revision="feature/kirkstone-community-platforms">
+    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-development" remote="rdkcentral" revision="7986a85c5600363d5d6878e6c5e435a86a9a081f">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
