@@ -5,7 +5,7 @@
     <remote fetch="https://code.rdkcentral.com/r/a/" name="cmf" review="https://code.rdkcentral.com/r/a/" />
     <remote fetch="https://github.com/leenaS-d" name="leenaS-d" review="https://github.com/leenaS-d"/>
 
-    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="refs/tags/4.1.0">
+    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdke" revision="refs/tags/4.1.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS"/>
     </project>
 
