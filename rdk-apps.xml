@@ -32,9 +32,6 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdke" revision="refs/tags/v4.1.2">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY" />
     </project>
-    <project groups="oe" name="meta-python2" path="rdke/middleware/meta-python2" remote="rdke" revision="refs/tags/v4.0.0">
-        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_META_PYTHON2" />
-    </project>
     <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="refs/tags/2.3.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
