@@ -43,7 +43,7 @@
     <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="refs/tags/2.1.2">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
-    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" upstream="feature/hotfix-rev-lock-refui" revision="refs/tags/4.0.0-RC1">
+    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" upstream="release/4.0.0-p1" revision="refs/tags/4.0.0-p1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
