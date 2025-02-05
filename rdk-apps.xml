@@ -36,7 +36,7 @@
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" revision="4b2c002936dec754491bf820007dac687b527088">
+    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" revision="32a7ebe2b5b6584497bfde8f18b2ed0aa166e6db">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
