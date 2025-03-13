@@ -32,7 +32,7 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdke" revision="refs/tags/v4.1.4">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY" />
     </project>
-    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="234aadcc54fc6dd16e98bebbda36abf73ee633b5">
+    <project groups="layers" name="meta-middleware-release" path="rdke/middleware/meta-middleware-release" remote="rdke" revision="e30200cab77cc18438580435f9d675275f186e97">
         <!-- TODO: use tag when available -->
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
