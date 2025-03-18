@@ -32,7 +32,7 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdke" revision="refs/tags/v4.1.4">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY" />
     </project>
-    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="feature/RDKVREFPLT-5091-community-middleware-release-layer">
+    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="refs/tags/2.7.0">
         <!-- TODO: use tag when available -->
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
