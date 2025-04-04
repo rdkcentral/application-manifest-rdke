@@ -12,12 +12,14 @@
     <project groups="stacklayering" name="meta-stack-layering-support" path="rdke/common/meta-stack-layering-support" remote="rdkcentral" revision="refs/tags/1.2.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_STACK_LAYERING_SUPPORT" />
     </project>
+
     <project groups="configs" name="rdke-common-config" path="rdke/configs/common" remote="rdkcentral" revision="feature/REFPLTV-2709">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_COMMON_CONFIG" />
     </project>
     <project groups="configs" name="rdke-stb-config" path="rdke/configs/profile" remote="rdkcentral" revision="refs/tags/1.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PROFILE_CONFIG" />
     </project>
+
     <project groups="layers" name="meta-oss-reference-release" path="rdke/common/meta-oss-reference-release" remote="rdkcentral" revision="refs/tags/4.5.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_RELEASE" />
     </project>
