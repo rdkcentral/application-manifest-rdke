@@ -28,7 +28,7 @@
     </project>
     <project groups="extention" name="meta-oss-common-config" path="rdke/configs/ext" remote="rdkcentral" revision="develop">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_EXT"/>
-    </project>   
+    </project>
     <project groups="oe" name="meta-openembedded" path="rdke/common/meta-openembedded" remote="rdkcentral" revision="refs/tags/rdk-4.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OPENEMBEDDED" />
     </project>
