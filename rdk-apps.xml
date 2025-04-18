@@ -20,6 +20,9 @@
     <project groups="configs" name="rdke-stb-config" path="rdke/configs/profile" remote="rdkcentral" revision="refs/tags/1.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_PROFILE_CONFIG" />
     </project>
+    <project groups="extention" name="meta-oss-common-config" path="rdke/configs/ext" remote="rdkcentral" revision="refs/tags/1.0.2">
+        <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_EXT"/>
+    </project>
     <project groups="layers" name="meta-oss-reference-release" path="rdke/common/meta-oss-reference-release" remote="rdke" revision="refs/tags/4.4.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_OSS_RELEASE" />
     </project>
