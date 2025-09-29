@@ -35,7 +35,7 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdkcentral" revision="refs/tags/rdk-4.4.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY" />
     </project>
-    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="10b78e82b31611bdc299d1b5ece8c837434428f3">
+    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="feature/RDKECOREMW-919">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
