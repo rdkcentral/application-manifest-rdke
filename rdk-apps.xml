@@ -35,11 +35,11 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdkcentral" revision="refs/tags/rdk-4.4.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY" />
     </project>
-    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="refs/tags/8.3.4.0">
+    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="refs/tags/8.3.4.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" revision="refs/tags/5.0.0">
+    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" revision="refs/tags/5.0.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
