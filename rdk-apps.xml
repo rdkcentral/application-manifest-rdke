@@ -3,7 +3,7 @@
     <yocto version="kirkstone" />
     <remote fetch="https://github.com/rdkcentral" name="rdkcentral" review="https://github.com/rdkcentral"/>
 
-    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdkcentral" revision="refs/tags/1.0.1">
+    <project groups="buildscripts" name="build-scripts" path="scripts" remote="rdkcentral" revision="refs/tags/1.0.3">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_SCRIPTS" />
     </project>
     <project groups="buildsupport" name="meta-rdk-auxiliary" path="rdke/common/meta-rdk-auxiliary" remote="rdkcentral" revision="refs/tags/1.7.0">
@@ -32,11 +32,11 @@
     <project groups="oe" name="poky" path="rdke/common/poky" remote="rdkcentral" revision="refs/tags/rdk-4.5.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_POKY" />
     </project>
-    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="d9b122406fc6c51fe4ff69869032984a1d985678">
+    <project groups="layers" name="meta-middleware-release-rdke" path="rdke/middleware/meta-middleware-release" remote="rdkcentral" revision="refs/tags/8.5.2.1">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_MW_RELEASE"/>
     </project>
 
-    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" revision="b9db7a17ff9359498fb7cf47ee34ad0b9b0553a9">
+    <project groups="layers" name="meta-application-rdke-dev" path="rdke/application/meta-application-rdke-dev" remote="rdkcentral" revision="refs/tags/6.0.0">
         <annotation name="MANIFEST_EXPORT_PATH" value="MANIFEST_PATH_BBLAYERS_TEMPLATE"/>
         <annotation name="MANIFEST_EXPORT_PATH1" value="MANIFEST_PATH_APPLICATION_DEVELOPMENT"/>
     </project>
